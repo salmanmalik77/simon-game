@@ -6,8 +6,8 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$(document).tap(function () {
-  $("level-title").text("level "+ level);
+//$(document).tap(function () {//
+ //// $("level-title").text("level "+ level);//
 
   nextSequence();
   started = true;
